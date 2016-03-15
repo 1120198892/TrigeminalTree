@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F964AD1C97B86600410F68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964AC1C97B86600410F68 /* main.m */; };
+		47F964B01C97B86600410F68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964AF1C97B86600410F68 /* AppDelegate.m */; };
+		47F964B31C97B86600410F68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964B21C97B86600410F68 /* ViewController.m */; };
+		47F964B61C97B86600410F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F964B41C97B86600410F68 /* Main.storyboard */; };
+		47F964B81C97B86600410F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F964B71C97B86600410F68 /* Assets.xcassets */; };
+		47F964BB1C97B86600410F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F964B91C97B86600410F68 /* LaunchScreen.storyboard */; };
+		47F964C61C97B86600410F68 /* TrigeminalTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964C51C97B86600410F68 /* TrigeminalTreeTests.m */; };
+		47F964D11C97B86600410F68 /* TrigeminalTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964D01C97B86600410F68 /* TrigeminalTreeUITests.m */; };
+		47F964E11C97B8B900410F68 /* BaseTreeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964E01C97B8B900410F68 /* BaseTreeItem.m */; };
+		47F964E71C97B90F00410F68 /* BaseTreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964E61C97B90F00410F68 /* BaseTreeCell.m */; };
+		47F964EE1C97BB6B00410F68 /* UIButton+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964ED1C97BB6B00410F68 /* UIButton+image.m */; };
+		47F964F41C97BD7500410F68 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964F31C97BD7500410F68 /* UIView+Frame.m */; };
+		47F964F71C97BECE00410F68 /* UITableView+tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964F61C97BECE00410F68 /* UITableView+tree.m */; };
+		47F964FA1C97BFD300410F68 /* UITableViewCell+edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964F91C97BFD300410F68 /* UITableViewCell+edge.m */; };
+		47F964FC1C97C3D600410F68 /* 三叉树效果图.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F964FB1C97C3D600410F68 /* 三叉树效果图.png */; };
+		47F964FE1C97C57600410F68 /* $SP([VXR38Z8KWJKQ5G7{)F.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47F964FD1C97C57600410F68 /* $SP([VXR38Z8KWJKQ5G7{)F.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47F964C21C97B86600410F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F964A01C97B86600410F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F964A71C97B86600410F68;
+			remoteInfo = TrigeminalTree;
+		};
+		47F964CD1C97B86600410F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F964A01C97B86600410F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F964A71C97B86600410F68;
+			remoteInfo = TrigeminalTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47F964A81C97B86600410F68 /* TrigeminalTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrigeminalTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F964AC1C97B86600410F68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47F964AE1C97B86600410F68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47F964AF1C97B86600410F68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47F964B11C97B86600410F68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47F964B21C97B86600410F68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47F964B51C97B86600410F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47F964B71C97B86600410F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47F964BA1C97B86600410F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47F964BC1C97B86600410F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F964C11C97B86600410F68 /* TrigeminalTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrigeminalTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F964C51C97B86600410F68 /* TrigeminalTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrigeminalTreeTests.m; sourceTree = "<group>"; };
+		47F964C71C97B86600410F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F964CC1C97B86600410F68 /* TrigeminalTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrigeminalTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F964D01C97B86600410F68 /* TrigeminalTreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrigeminalTreeUITests.m; sourceTree = "<group>"; };
+		47F964D21C97B86600410F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F964DF1C97B8B900410F68 /* BaseTreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTreeItem.h; sourceTree = "<group>"; };
+		47F964E01C97B8B900410F68 /* BaseTreeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTreeItem.m; sourceTree = "<group>"; };
+		47F964E51C97B90F00410F68 /* BaseTreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTreeCell.h; sourceTree = "<group>"; };
+		47F964E61C97B90F00410F68 /* BaseTreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTreeCell.m; sourceTree = "<group>"; };
+		47F964E91C97B95000410F68 /* macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		47F964EA1C97BAB200410F68 /* TrigeminalTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrigeminalTree.h; sourceTree = "<group>"; };
+		47F964EB1C97BAC400410F68 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		47F964EC1C97BB6B00410F68 /* UIButton+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+image.h"; sourceTree = "<group>"; };
+		47F964ED1C97BB6B00410F68 /* UIButton+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+image.m"; sourceTree = "<group>"; };
+		47F964F21C97BD7500410F68 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		47F964F31C97BD7500410F68 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		47F964F51C97BECE00410F68 /* UITableView+tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+tree.h"; sourceTree = "<group>"; };
+		47F964F61C97BECE00410F68 /* UITableView+tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+tree.m"; sourceTree = "<group>"; };
+		47F964F81C97BFD300410F68 /* UITableViewCell+edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+edge.h"; sourceTree = "<group>"; };
+		47F964F91C97BFD300410F68 /* UITableViewCell+edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+edge.m"; sourceTree = "<group>"; };
+		47F964FB1C97C3D600410F68 /* 三叉树效果图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "三叉树效果图.png"; sourceTree = "<group>"; };
+		47F964FD1C97C57600410F68 /* $SP([VXR38Z8KWJKQ5G7{)F.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "$SP([VXR38Z8KWJKQ5G7{)F.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F964A51C97B86600410F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F964BE1C97B86600410F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F964C91C97B86600410F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47F9649F1C97B86600410F68 = {
+			isa = PBXGroup;
+			children = (
+				47F964AA1C97B86600410F68 /* TrigeminalTree */,
+				47F964C41C97B86600410F68 /* TrigeminalTreeTests */,
+				47F964CF1C97B86600410F68 /* TrigeminalTreeUITests */,
+				47F964A91C97B86600410F68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47F964A91C97B86600410F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F964A81C97B86600410F68 /* TrigeminalTree.app */,
+				47F964C11C97B86600410F68 /* TrigeminalTreeTests.xctest */,
+				47F964CC1C97B86600410F68 /* TrigeminalTreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F964AA1C97B86600410F68 /* TrigeminalTree */ = {
+			isa = PBXGroup;
+			children = (
+				47F964DE1C97B87800410F68 /* BMWTree */,
+				47F964AE1C97B86600410F68 /* AppDelegate.h */,
+				47F964AF1C97B86600410F68 /* AppDelegate.m */,
+				47F964B11C97B86600410F68 /* ViewController.h */,
+				47F964B21C97B86600410F68 /* ViewController.m */,
+				47F964B41C97B86600410F68 /* Main.storyboard */,
+				47F964B71C97B86600410F68 /* Assets.xcassets */,
+				47F964B91C97B86600410F68 /* LaunchScreen.storyboard */,
+				47F964BC1C97B86600410F68 /* Info.plist */,
+				47F964AB1C97B86600410F68 /* Supporting Files */,
+			);
+			path = TrigeminalTree;
+			sourceTree = "<group>";
+		};
+		47F964AB1C97B86600410F68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F964AC1C97B86600410F68 /* main.m */,
+				47F964EA1C97BAB200410F68 /* TrigeminalTree.h */,
+				47F964EB1C97BAC400410F68 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47F964C41C97B86600410F68 /* TrigeminalTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				47F964C51C97B86600410F68 /* TrigeminalTreeTests.m */,
+				47F964C71C97B86600410F68 /* Info.plist */,
+			);
+			path = TrigeminalTreeTests;
+			sourceTree = "<group>";
+		};
+		47F964CF1C97B86600410F68 /* TrigeminalTreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47F964D01C97B86600410F68 /* TrigeminalTreeUITests.m */,
+				47F964D21C97B86600410F68 /* Info.plist */,
+			);
+			path = TrigeminalTreeUITests;
+			sourceTree = "<group>";
+		};
+		47F964DE1C97B87800410F68 /* BMWTree */ = {
+			isa = PBXGroup;
+			children = (
+				47F964DF1C97B8B900410F68 /* BaseTreeItem.h */,
+				47F964E01C97B8B900410F68 /* BaseTreeItem.m */,
+				47F964E51C97B90F00410F68 /* BaseTreeCell.h */,
+				47F964E61C97B90F00410F68 /* BaseTreeCell.m */,
+				47F964E91C97B95000410F68 /* macro.h */,
+				47F964EC1C97BB6B00410F68 /* UIButton+image.h */,
+				47F964ED1C97BB6B00410F68 /* UIButton+image.m */,
+				47F964F21C97BD7500410F68 /* UIView+Frame.h */,
+				47F964F31C97BD7500410F68 /* UIView+Frame.m */,
+				47F964F51C97BECE00410F68 /* UITableView+tree.h */,
+				47F964F61C97BECE00410F68 /* UITableView+tree.m */,
+				47F964F81C97BFD300410F68 /* UITableViewCell+edge.h */,
+				47F964F91C97BFD300410F68 /* UITableViewCell+edge.m */,
+				47F964FB1C97C3D600410F68 /* 三叉树效果图.png */,
+				47F964FD1C97C57600410F68 /* $SP([VXR38Z8KWJKQ5G7{)F.jpg */,
+			);
+			name = BMWTree;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F964A71C97B86600410F68 /* TrigeminalTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F964D51C97B86600410F68 /* Build configuration list for PBXNativeTarget "TrigeminalTree" */;
+			buildPhases = (
+				47F964A41C97B86600410F68 /* Sources */,
+				47F964A51C97B86600410F68 /* Frameworks */,
+				47F964A61C97B86600410F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrigeminalTree;
+			productName = TrigeminalTree;
+			productReference = 47F964A81C97B86600410F68 /* TrigeminalTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47F964C01C97B86600410F68 /* TrigeminalTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F964D81C97B86600410F68 /* Build configuration list for PBXNativeTarget "TrigeminalTreeTests" */;
+			buildPhases = (
+				47F964BD1C97B86600410F68 /* Sources */,
+				47F964BE1C97B86600410F68 /* Frameworks */,
+				47F964BF1C97B86600410F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F964C31C97B86600410F68 /* PBXTargetDependency */,
+			);
+			name = TrigeminalTreeTests;
+			productName = TrigeminalTreeTests;
+			productReference = 47F964C11C97B86600410F68 /* TrigeminalTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47F964CB1C97B86600410F68 /* TrigeminalTreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F964DB1C97B86600410F68 /* Build configuration list for PBXNativeTarget "TrigeminalTreeUITests" */;
+			buildPhases = (
+				47F964C81C97B86600410F68 /* Sources */,
+				47F964C91C97B86600410F68 /* Frameworks */,
+				47F964CA1C97B86600410F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F964CE1C97B86600410F68 /* PBXTargetDependency */,
+			);
+			name = TrigeminalTreeUITests;
+			productName = TrigeminalTreeUITests;
+			productReference = 47F964CC1C97B86600410F68 /* TrigeminalTreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F964A01C97B86600410F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = erice;
+				TargetAttributes = {
+					47F964A71C97B86600410F68 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					47F964C01C97B86600410F68 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 47F964A71C97B86600410F68;
+					};
+					47F964CB1C97B86600410F68 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 47F964A71C97B86600410F68;
+					};
+				};
+			};
+			buildConfigurationList = 47F964A31C97B86600410F68 /* Build configuration list for PBXProject "TrigeminalTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47F9649F1C97B86600410F68;
+			productRefGroup = 47F964A91C97B86600410F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F964A71C97B86600410F68 /* TrigeminalTree */,
+				47F964C01C97B86600410F68 /* TrigeminalTreeTests */,
+				47F964CB1C97B86600410F68 /* TrigeminalTreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F964A61C97B86600410F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F964BB1C97B86600410F68 /* LaunchScreen.storyboard in Resources */,
+				47F964B81C97B86600410F68 /* Assets.xcassets in Resources */,
+				47F964FE1C97C57600410F68 /* $SP([VXR38Z8KWJKQ5G7{)F.jpg in Resources */,
+				47F964FC1C97C3D600410F68 /* 三叉树效果图.png in Resources */,
+				47F964B61C97B86600410F68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F964BF1C97B86600410F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F964CA1C97B86600410F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F964A41C97B86600410F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F964B31C97B86600410F68 /* ViewController.m in Sources */,
+				47F964F71C97BECE00410F68 /* UITableView+tree.m in Sources */,
+				47F964B01C97B86600410F68 /* AppDelegate.m in Sources */,
+				47F964AD1C97B86600410F68 /* main.m in Sources */,
+				47F964F41C97BD7500410F68 /* UIView+Frame.m in Sources */,
+				47F964EE1C97BB6B00410F68 /* UIButton+image.m in Sources */,
+				47F964E71C97B90F00410F68 /* BaseTreeCell.m in Sources */,
+				47F964FA1C97BFD300410F68 /* UITableViewCell+edge.m in Sources */,
+				47F964E11C97B8B900410F68 /* BaseTreeItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F964BD1C97B86600410F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F964C61C97B86600410F68 /* TrigeminalTreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F964C81C97B86600410F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F964D11C97B86600410F68 /* TrigeminalTreeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47F964C31C97B86600410F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F964A71C97B86600410F68 /* TrigeminalTree */;
+			targetProxy = 47F964C21C97B86600410F68 /* PBXContainerItemProxy */;
+		};
+		47F964CE1C97B86600410F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F964A71C97B86600410F68 /* TrigeminalTree */;
+			targetProxy = 47F964CD1C97B86600410F68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47F964B41C97B86600410F68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F964B51C97B86600410F68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47F964B91C97B86600410F68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F964BA1C97B86600410F68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47F964D31C97B86600410F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47F964D41C97B86600410F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47F964D61C97B86600410F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/erice/github/TrigeminalTree/TrigeminalTree/TrigeminalTree/PrefixHeader.pch;
+				INFOPLIST_FILE = TrigeminalTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzi.TrigeminalTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47F964D71C97B86600410F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/erice/github/TrigeminalTree/TrigeminalTree/TrigeminalTree/PrefixHeader.pch;
+				INFOPLIST_FILE = TrigeminalTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzi.TrigeminalTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47F964D91C97B86600410F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrigeminalTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzi.TrigeminalTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrigeminalTree.app/TrigeminalTree";
+			};
+			name = Debug;
+		};
+		47F964DA1C97B86600410F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrigeminalTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzi.TrigeminalTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrigeminalTree.app/TrigeminalTree";
+			};
+			name = Release;
+		};
+		47F964DC1C97B86600410F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrigeminalTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzi.TrigeminalTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrigeminalTree;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		47F964DD1C97B86600410F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrigeminalTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzi.TrigeminalTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrigeminalTree;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F964A31C97B86600410F68 /* Build configuration list for PBXProject "TrigeminalTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F964D31C97B86600410F68 /* Debug */,
+				47F964D41C97B86600410F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F964D51C97B86600410F68 /* Build configuration list for PBXNativeTarget "TrigeminalTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F964D61C97B86600410F68 /* Debug */,
+				47F964D71C97B86600410F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47F964D81C97B86600410F68 /* Build configuration list for PBXNativeTarget "TrigeminalTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F964D91C97B86600410F68 /* Debug */,
+				47F964DA1C97B86600410F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47F964DB1C97B86600410F68 /* Build configuration list for PBXNativeTarget "TrigeminalTreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F964DC1C97B86600410F68 /* Debug */,
+				47F964DD1C97B86600410F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F964A01C97B86600410F68 /* Project object */;
+}
