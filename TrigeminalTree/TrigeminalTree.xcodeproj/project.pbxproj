@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4704A59B1C9F9E55005C21B4 /* SingleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704A59A1C9F9E55005C21B4 /* SingleHelper.m */; };
 		47F964AD1C97B86600410F68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964AC1C97B86600410F68 /* main.m */; };
 		47F964B01C97B86600410F68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964AF1C97B86600410F68 /* AppDelegate.m */; };
 		47F964B31C97B86600410F68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F964B21C97B86600410F68 /* ViewController.m */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4704A5991C9F9E55005C21B4 /* SingleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleHelper.h; sourceTree = "<group>"; };
+		4704A59A1C9F9E55005C21B4 /* SingleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleHelper.m; sourceTree = "<group>"; };
 		47F964A81C97B86600410F68 /* TrigeminalTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrigeminalTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F964AC1C97B86600410F68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47F964AE1C97B86600410F68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 				47F964AF1C97B86600410F68 /* AppDelegate.m */,
 				47F964B11C97B86600410F68 /* ViewController.h */,
 				47F964B21C97B86600410F68 /* ViewController.m */,
+				4704A5991C9F9E55005C21B4 /* SingleHelper.h */,
+				4704A59A1C9F9E55005C21B4 /* SingleHelper.m */,
 				47F964B41C97B86600410F68 /* Main.storyboard */,
 				47F964B71C97B86600410F68 /* Assets.xcassets */,
 				47F964B91C97B86600410F68 /* LaunchScreen.storyboard */,
@@ -327,6 +332,7 @@
 				47F964B01C97B86600410F68 /* AppDelegate.m in Sources */,
 				47F964AD1C97B86600410F68 /* main.m in Sources */,
 				47F964F41C97BD7500410F68 /* UIView+Frame.m in Sources */,
+				4704A59B1C9F9E55005C21B4 /* SingleHelper.m in Sources */,
 				47F964EE1C97BB6B00410F68 /* UIButton+image.m in Sources */,
 				47F964E71C97B90F00410F68 /* BaseTreeCell.m in Sources */,
 				47F964FA1C97BFD300410F68 /* UITableViewCell+edge.m in Sources */,
@@ -556,6 +562,7 @@
 				47F964D71C97B86600410F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47F964D81C97B86600410F68 /* Build configuration list for PBXNativeTarget "TrigeminalTreeTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +571,7 @@
 				47F964DA1C97B86600410F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47F964DB1C97B86600410F68 /* Build configuration list for PBXNativeTarget "TrigeminalTreeUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +580,7 @@
 				47F964DD1C97B86600410F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
